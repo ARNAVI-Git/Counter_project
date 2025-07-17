@@ -12,11 +12,11 @@ body {
 .heading {
   margin-top: 40px;
   text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .button-container {
-  border: 1px solid black; /* slight black border */
+  border: 1px solid black; 
   padding: 60px;
   border-radius: 10px;
   background-color: white;
@@ -57,7 +57,6 @@ body {
 }
 
 
-/* Optional: Add pulse animation */
 @keyframes pulse {
   0% { transform: scale(1); }
   50% { transform: scale(1.05); }
